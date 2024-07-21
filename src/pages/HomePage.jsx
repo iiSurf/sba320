@@ -21,14 +21,21 @@ function HomePage() {
 
   return (
     <>
-      <h1>Today's News</h1>
-        {articles.map((article, index) => (
-          <li key={index} onClick={() => handleArticleClick(index, article)}>
-            {article.title}
-          </li>
-        ))}
+      <h1>Extra! Extra! Read All About It! This is Today's News</h1>
+      <div className='newsContainer'>
+        {articles.map((article, index) => {
+          <NewsCard key={index} article={article} index={index} />
+        })}
+      </div>
     </>
   );
-}
+};
 
 export default HomePage;
+
+/* <h1>Today's News</h1>
+{articles.map((article, index) => (
+  <li key={index} onClick={() => handleArticleClick(index, article)}>
+    {article.title}
+  </li>
+))} */
