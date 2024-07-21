@@ -1,0 +1,15 @@
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+NavBar {
+    background-color: #272727;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}

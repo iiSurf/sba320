@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
     return (
-        <header>
+        <NavBar>
             <nav>
                 <Link to='/'>Home</Link>
             </nav>
-        </header>
+        </NavBar>
     )
 }
+export default NavBar;

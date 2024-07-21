@@ -1,0 +1,30 @@
+.newsCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #5e3030;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    cursor: pointer;
+    color: #fbbcbc
+}
+.newsCard:hover {
+    transform: scale(1.1);
+}
+.newsCardImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.newsCardContent {
+    padding: 15px;
+}
+.newsCardTitle {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.newsCardInfo {
+    font-size: 14px;
+    color: #b8a7a7
+}
