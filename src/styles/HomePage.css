@@ -5,11 +5,27 @@ body {
     margin: 0;
     padding: 0;
 }
-NavBar {
+header {
     background-color: #272727;
     padding: 10px;
     text-align: center;
     position: sticky;
     top:0;
     z-index: 100;
+}
+header a {
+    color: #c9c7c7;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.newsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
