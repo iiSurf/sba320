@@ -9,15 +9,15 @@ function HomePage() {
   useEffect(() => {
     const API_URI = import.meta.env.VITE_API_URI;
     axios
-      .get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_URI}`)
+      .get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_URI}`) // http get request to api
       .then((response) => {
-        setArticles(response.data.articles);
-        console.log(response.data.articles);
+        setArticles(response.data.articles); // if res is successful then update articles state
+        // console.log(response.data.articles);
       })
       .catch((error) => {
         console.error('Error fetching news articles:', error);
       });
-  }, []);
+  }, []); // Empty dependency array means only runs once.
 
   return (
     <>
