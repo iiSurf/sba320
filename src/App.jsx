@@ -10,10 +10,10 @@ function App() {
     <>
       <NavBar />
       <Routes>
-          /* Defines a route and when the path is matched to '/', there will be a component re render. */
+          {/* Defines a route and when the path is matched to /, there will be a component re render. */}
         <Route path="/" element={<HomePage />} />
 
-         /* Defines another route and when the path is matched to '/article/:id', there will be a component re render. */
+         {/* Defines another route and when the path is matched to '/article/:id', there will be a component re render. */}
         <Route path="/article/:id" element={<ArticlePage />} />
       </Routes>
     </>

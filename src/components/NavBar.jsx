@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <header>
             <nav>
-                // The path '/' aka HomePage to navigate to when the link is clicked.
+                 {/* The path '/' aka HomePage to navigate to when the link is clicked. */}
                 <Link to='/'>Home</Link>
             </nav>
         </header>

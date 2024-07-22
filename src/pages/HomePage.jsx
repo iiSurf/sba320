@@ -9,9 +9,10 @@ function HomePage() {
   useEffect(() => {
     const API_URI = import.meta.env.VITE_API_URI;
     axios
-      .get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_URI}`) // http get request to api
+      .get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_URI}`)  // http get request to api
       .then((response) => {
-        setArticles(response.data.articles); // if res is successful then update articles state
+        setArticles(response.data.articles);
+        //  if res is successful then update articles state
         // console.log(response.data.articles);
       })
       .catch((error) => {

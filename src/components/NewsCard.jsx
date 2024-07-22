@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import "../styles/NewsCard.css";
 import placeholder from '../assets/placeholder.jpg';
 
-// An article object represents an individual news article.
-// Index of the article in the list.
+//  An article object represents an individual news article.
+//  Index of the article in the list.
 function NewsCard({ article, index }) {
 
   // Allows you to navigate to different routes.
