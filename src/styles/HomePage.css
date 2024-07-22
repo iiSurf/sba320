@@ -6,7 +6,8 @@ body {
     padding: 0;
 }
 header {
-    background-color: #272727;
+    background-color: #2a1111;
+    border-radius: 15px;
     padding: 10px;
     text-align: center;
     position: sticky;
