@@ -37,5 +37,4 @@ I started with choosing an api, got that to be connected to my react vite server
 > [!CAUTION]
 > Unsolved problems.
 > Comments! The commented out text for better code readability and for future reading of the code is going crazy. At times it will not accept '//' or '/* */' commented out code. It will show up in the pages and also VS Code seems to also add curly braces around each commented out text. Once deleted they appear again.
-> I also see more text in some of the article news cards that were not there before. This at least is an easy to solve fix. But for it to work it will have to behave.
-Besides this, no otherissues I see.
+> I also see more text in some of the article news cards that were not there before. This at least is an easy to solve fix. But for it to work it will have to behave. Besides this, no otherissues I see.
