@@ -32,7 +32,7 @@ I started with choosing an api, got that to be connected to my react vite server
 5. Delete on line 12 where it says API_KEY that is inside curly braces that looks like ${API_KEY} and insert your API Key right in there.
 6. Make sure to install Vite by typing in the terminal of VS Code with, 'npm create vite@latest'
 7. Once that finishes then you can type, 'npm run dev'
-8. Cntrl + Click (On Windows) or Cmnd + Click (On iMac) to then be taken to your browser and running on your local server.
+8. Cntrl + Click (On Windows) and click on localhost link in terminal or Cmnd + Click (On iMac) and click on localhost link in terminal to then be taken to your browser and running on your local server.
 
 > [!CAUTION]
 > Unsolved problems.
