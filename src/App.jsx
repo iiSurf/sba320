@@ -13,7 +13,7 @@ function App() {
           {/* Defines a route and when the path is matched to /, there will be a component re render. */}
         <Route path="/" element={<HomePage />} />
 
-         {/* Defines another route and when the path is matched to '/article/:id', there will be a component re render. */}
+         {/* Defines another route and when the path is matched to '/article/:id', there will be a component re render here. */}
         <Route path="/article/:id" element={<ArticlePage />} />
       </Routes>
     </>
